@@ -77,13 +77,13 @@ Object {
 
 exports[`Success cases compression should generate the expected files 1`] = `
 Object {
+  ".gz": "CONTENTS IGNORED IN SNAPSHOT TEST",
   "index.html": "<html>
   <body>
     <h1>/</h1>
   </body>
 </html>
 ",
-  "index.html.gz": "CONTENTS IGNORED IN SNAPSHOT TEST",
   "index.js": "CONTENTS IGNORED IN SNAPSHOT TEST",
 }
 `;
@@ -311,31 +311,6 @@ Object {
   "index.html": "<html>
   <body>
     <h1>\\"DONT_INCLUDE_ME\\" is in locals: false</h1>
-  </body>
-</html>
-",
-  "index.js": "CONTENTS IGNORED IN SNAPSHOT TEST",
-}
-`;
-
-exports[`Success cases legacy-args should generate the expected files 1`] = `
-Object {
-  "1.index.js": "CONTENTS IGNORED IN SNAPSHOT TEST",
-  "foo/bar/index.html": "<html>
-  <body>
-    <h1>/foo/bar</h1>
-  </body>
-</html>
-",
-  "foo/index.html": "<html>
-  <body>
-    <h1>/foo</h1>
-  </body>
-</html>
-",
-  "index.html": "<html>
-  <body>
-    <h1>/</h1>
   </body>
 </html>
 ",

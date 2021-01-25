@@ -14,7 +14,7 @@ module.exports = {
   },
 
   plugins: [
-    new StaticSiteGeneratorPlugin('THIS_DOESNT_EXIST', ['/'])
+    new StaticSiteGeneratorPlugin({})
   ]
 
 };

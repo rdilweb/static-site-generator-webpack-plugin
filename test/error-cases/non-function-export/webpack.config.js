@@ -14,7 +14,7 @@ module.exports = {
   },
 
   plugins: [
-    new StaticSiteGeneratorPlugin('main', ['/'])
+    new StaticSiteGeneratorPlugin({})
   ]
 
 };
